@@ -11,6 +11,7 @@ export default defineConfig({
   plugins: [vue()],
   // 路径代理
   resolve: {
+    base: './',
     alias: [
       { find: '/@', replacement: `${pathResolve('src')}/` },
     ]
