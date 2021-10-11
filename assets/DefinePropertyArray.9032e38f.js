@@ -1,0 +1,1 @@
+import{o as e,c as t,w as o}from"./vendor.c031040f.js";const r={name:"DefinePropertyArray",setup(){let e=[1,2,3];e.forEach(((t,o)=>{Object.defineProperty(e,o,{get:()=>(console.log("数组被 getter 拦截",o),t),set(e){console.log("数组被 setter 拦截",o)}})})),e.unshift(0)}},s=o("data-v-6563f750")(((o,r,s,a,f,n)=>(e(),t("div"))));r.render=s,r.__scopeId="data-v-6563f750";export{r as default};

@@ -1,0 +1,1 @@
+import{o as e,c as o,w as t}from"./vendor.c031040f.js";const s={name:"DefinePropertyObject",setup(){let e,o={};Object.defineProperty(o,"hobby",{get:()=>(console.log("get 被调用"),e),set(o){console.log("set 被调用"),e="world"}}),o.age=18}},a=t("data-v-cb832340")(((t,s,a,r,c,d)=>(e(),o("div"))));s.render=a,s.__scopeId="data-v-cb832340";export{s as default};
