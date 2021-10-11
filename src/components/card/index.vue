@@ -158,9 +158,9 @@ export default {
 
 .card {
   position: relative;
-  flex: 0 0 240px;
-  width: 240px;
-  height: 320px;
+  flex: 0 0 300px;
+  width: 400px;
+  height: 150px;
   background-color: #333;
   overflow: hidden;
   border-radius: 10px;
